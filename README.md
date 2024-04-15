@@ -1,1 +1,1 @@
-1 - JS Drum Kit - https://robfyd.github.io/JavaScript30/
+1 - JS Drum Kit - https://robfyd.github.io/JavaScript30/DrumKit
