@@ -4,4 +4,4 @@
 
 3 - CSS Variables - https://robfyd.github.io/JavaScript30/CSSvariables/index-START.html 🐍
 
-4 - Array Cardio Day 1 - https://robfyd.github.io/JavaScript30/ArrayCardioDay1/index-START.html 🏃‍♂️
+4 - Array Cardio Day 1 - https://robfyd.github.io/JavaScript30/ArrayCardioD1/index-START.html 🏃‍♂️
