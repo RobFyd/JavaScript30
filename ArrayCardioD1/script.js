@@ -70,8 +70,13 @@ console.table(fifteen);
 // arrow function - simplified
 const sixteen = inventors.filter(inventor => (inventor.year >= 1600 && inventor.year <= 1699));
 console.table(sixteen);
-// Array.prototype.map()
+// Array.prototype.map() - map return same amount of items as it was given
 // 2. Give us an array of the inventors first and last names
+const fullNames = inventors.map(inventor => (inventor.first + " " + inventor.last));
+console.table(fullNames);
+console.log(fullNames);
+const dates = inventors.map(inventor => `${inventor.year} ${inventor.passed}`);
+console.table(dates);
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, oldest to youngest
 // Array.prototype.reduce()
