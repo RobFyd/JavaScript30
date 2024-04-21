@@ -69,7 +69,7 @@ const people: string[] = [
   "Biondo, Frank",
 ];
 
-// Array.prototype.filter()
+// Array.prototype.filter() - filter return same amount of items or less
 // 1. Filter the list of inventors for those who were born in the 1500's and 1600's
 const fifteen = inventors.filter(function (inventor) {
   if (inventor.year >= 1500 && inventor.year <= 1599) {
@@ -91,10 +91,18 @@ console.log(fullNames);
 const dates = inventors.map(inventor => `${inventor.year} ${inventor.passed}`)
 console.table(dates);
 
-// Array.prototype.sort()
+// Array.prototype.sort() - sort the items in the array
 // 3. Sort the inventors by birthdate, oldest to youngest
+const ordered = inventors.sort(function(a, b) {
+  if(a.year > b.year) {
+    return 1;
+  } else {
+    return -1;
+  }
+});
+console.table(ordered);
 
-// Array.prototype.reduce()
+// Array.prototype.reduce() - reduce the array to a single value
 // 4. How many years did all the inventors live all together?
 
 // 5. Sort the inventors by years lived
