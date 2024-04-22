@@ -102,6 +102,9 @@ const ordered = inventors.sort(function(a, b) {
 });
 console.table(ordered);
 
+const ordered2 = inventors.sort((a, b) => a.year < b.year ? 1 : -1);  // ternary operator
+console.table(ordered2);
+
 // Array.prototype.reduce() - reduce the array to a single value
 // 4. How many years did all the inventors live all together?
 
