@@ -113,6 +113,12 @@ console.table(oldest);
 // const filtered = linkTexts.filter(streetName => streetName.includes("de"));
 // 7. sort Exercise
 // Sort the people alphabetically by last name
+const alphabetically = people.sort(function (lastOne, nextOne) {
+    const [aLast, aFirst] = lastOne.split(", ");
+    const [bLast, bFirst] = nextOne.split(", ");
+    return aLast > bLast ? 1 : -1;
+});
+console.log(alphabetically);
 // 8. Reduce Exercise
 // Sum up the instances of each of these
 const data = [
