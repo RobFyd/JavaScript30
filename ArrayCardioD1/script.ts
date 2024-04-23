@@ -124,10 +124,14 @@ const oldest = inventors.sort(function(a, b) {
 });
 console.table(oldest);
 
-// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name - exercise for wikipedia page
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-const category = document.querySelector(".mw-category");
-const links = category.querySelectorAll("a");
+
+// const category = document.querySelector(".mw-category") as HTMLDivElement;
+// const links = Array.from(category.querySelectorAll("a"));  // or [...category.querySelectorAll("a")] - spread operator for array
+// const linkTexts = links.map(link => link.textContent);
+// const filtered = linkTexts.filter(streetName => streetName.includes("de"));
+
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
