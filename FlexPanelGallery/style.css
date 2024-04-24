@@ -36,6 +36,10 @@ html {
     background-size: cover;
     background-position: center;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
@@ -44,12 +48,16 @@ html {
   .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
   .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
 
-  /* Flex Children */
-  .panel > * {
+  /* Flex Items */
+  .panel > * { /* all children of .panel but not .panel itself */
     margin: 0;
     width: 100%;
     transition: transform 0.5s;
     border: 2px solid crimson;
+    flex: 1 0 auto; /* flex-grow, flex-shrink, flex-basis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .panel p {
