@@ -160,3 +160,13 @@ const data = [
   "car",
   "truck",
 ];
+
+const transportation = data.reduce(function(obj: {[key: string]: number}, item: string) {  // obj - accumulator
+  if(!obj[item]) {
+    obj[item] = 0;
+  }
+  obj[item]++
+  return obj;
+}, {})
+
+console.log(transportation);
