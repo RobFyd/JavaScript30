@@ -14,6 +14,10 @@ html {
     box-sizing: inherit;
   }
 
+  p {
+    user-select: none;
+  }
+
   .panels {
     min-height: 100vh;
     overflow: hidden;
@@ -40,6 +44,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
 
   .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
