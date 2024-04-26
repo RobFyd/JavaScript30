@@ -2,6 +2,8 @@ const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb
 
 const cities = [];
 
-const promise = fetch(endpoint);
-console.log(promise);
-  
+fetch(endpoint)
+.then(blob => blob.json())  // blob.json() returns a promise
+//.then(data => cities = data); // data is the parsed JSON data, need to use let cities = [] instead of const cities = []
+  //or
+.then(data => cities.push(...data)); // data is the parsed JSON data and you can use const cities = [] instead of let cities = []
