@@ -7,3 +7,13 @@ fetch(endpoint)
 //.then(data => cities = data); // data is the parsed JSON data, need to use let cities = [] instead of const cities = []
   //or
 .then(data => cities.push(...data)); // data is the parsed JSON data and you can use const cities = [] instead of let cities = []
+
+function findMatches(wordToMatch, cities) {
+    return cities.filter(
+        place => {
+            // here we need to figure out if the city or state matches what was searched
+            const regex = new RegExp(wordToMatch, 'gi');
+            return place.city.match(regex) || place.state.match(regex); // match() returns null if no match found
+        }
+    )
+}
