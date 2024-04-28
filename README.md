@@ -16,5 +16,7 @@
 
 6 - Ajax Type Ahead - https://robfyd.github.io/JavaScript30/TypeAhead/index-START.html 📡
 
+7 - Array Cardio Day 2 - https://robfyd.github.io/JavaScript30/ArrayCardioD2/index-START.html 🏃‍♂️
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
