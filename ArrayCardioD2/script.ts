@@ -32,8 +32,14 @@ const isAdult2 = people2.some((person) => {
   return currentYear - person.year >= 19;
 });
 
+// much shorter version
+const isAdult3 = people2.some(
+  (person) => new Date().getFullYear() - person.year >= 19
+);
+
 console.log({ isAdult }); // {} - to show the result as an object
 console.log(isAdult2);
+console.log(isAdult3);
 
 // Array.prototype.every() // is everyone 19 or older?
 
