@@ -68,3 +68,10 @@ console.log(index);
 
 comments.splice(index, 1); // delete one item from the index
 console.table(comments); // to show the result as a table
+
+// or create a new array - redux way - spread operator - without mutation
+const newComments = [       // create a new array   
+    ...comments.slice(0, index),        // take all the comments before the index
+    ...comments.slice(index + 1)        // take all the comments after the index
+];
+console.table(newComments); // to show the result as a table
