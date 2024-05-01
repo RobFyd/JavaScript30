@@ -57,7 +57,7 @@ const rightComment = comments.find(function(comment) {
 console.log({rightComment});
 
 // simpler
-const rightComment2 = comments.find((comment) => comment.id === 823423);
+const rightComment2 = comments.find(comment => comment.id === 823423);
 console.log(rightComment2);
 
 // Array.prototype.findIndex()
