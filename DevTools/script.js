@@ -5,7 +5,9 @@ function makeGreen() {
     p.style.fontSize = '50px';
 }
 // Regular
+console.log('hello');
 // Interpolated
+console.log('Hello I am a %s string!', 'new');
 // Styled
 // warning!
 // Error :|
