@@ -22,5 +22,7 @@
 
 9 - Dev Tools Domination - https://robfyd.github.io/JavaScript30/DevTools/index-START.html 🛠
 
+10 - Hold Shift and Check Checkboxes - https://robfyd.github.io/JavaScript30/HoldShift/index-START.html 📦
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
