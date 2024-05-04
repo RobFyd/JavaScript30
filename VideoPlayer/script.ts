@@ -28,9 +28,16 @@ function updateButton() {
     console.log(icon);
 }
 
+function skip() {
+    console.log(this.dataset.skip);
+    video.currentTime += parseFloat(this.dataset.skip);
+}
+
 // hook up the event listeners
 
 video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
+
 toggle.addEventListener('click', togglePlay);
+skipButtons.forEach(button => button.addEventListener('click', skip));
