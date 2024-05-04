@@ -1,35 +1,38 @@
+const dogs = [
+  { name: "Snickers", age: 2 },
+  { name: "hugo", age: 8 },
+];
 
+function makeGreen() {
+  const p = document.querySelector("p");
+  if (p !== null) {
+    p.style.color = "#BADA55";
+    p.style.fontSize = "50px";
+  }
+}
 
-const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+// Regular
+console.log("hello");
 
-    function makeGreen() {
-      const p = document.querySelector('p');
-      p.style.color = '#BADA55';
-      p.style.fontSize = '50px';
-    }
+// Interpolated
+console.log("Hello I am a %s string!", "new");
 
-    // Regular
-    console.log('hello');
+// Styled
 
-    // Interpolated
-    console.log('Hello I am a %s string!', 'new');
+// warning!
 
-    // Styled
+// Error :|
 
-    // warning!
+// Info
 
-    // Error :|
+// Testing
 
-    // Info
+// clearing
 
-    // Testing
+// Viewing DOM Elements
 
-    // clearing
+// Grouping together
 
-    // Viewing DOM Elements
+// counting
 
-    // Grouping together
-
-    // counting
-
-    // timing
+// timing
