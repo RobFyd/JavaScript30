@@ -26,5 +26,7 @@
 
 11 - Custom Video Player - https://robfyd.github.io/JavaScript30/VideoPlayer/index.html 📺
 
+12 - Key Sequence Detection - https://robfyd.github.io/JavaScript30/KeySeqDet/index-START.html 🔑
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
