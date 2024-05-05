@@ -24,7 +24,7 @@
 
 10 - Hold Shift and Check Checkboxes - https://robfyd.github.io/JavaScript30/HoldShift/index-START.html 📦
 
-11 - Custom Video Player - https://robfyd.github.io/JavaScript30/VideoPlayer/index-START.html 📺
+11 - Custom Video Player - https://robfyd.github.io/JavaScript30/VideoPlayer/index.html 📺
 
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
