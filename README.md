@@ -28,5 +28,7 @@
 
 12 - Key Sequence Detection - https://robfyd.github.io/JavaScript30/KeySeqDet/index-START.html 🔑
 
+13 - Slide in on Scroll - https://robfyd.github.io/JavaScript30/SlideScroll/index-START.html 📜
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
