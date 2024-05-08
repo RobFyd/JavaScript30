@@ -5,6 +5,13 @@ console.log(age, age2); //the value of age and age2 is 100 because age2 is a cop
 age = 200;
 console.log(age, age2); //the value of age is 200 and age2 is 100 because age2 is a copy of first value of age
 
+
+let surname: string = 'Wes';
+let surname2 = surname;
+console.log(surname, surname2); //the value of surname and surname2 is Wes because surname2 is a copy of surname
+surname = 'Bos';
+console.log(surname, surname2); //the value of surname is Bos and surname2 is Wes because surname2 is a copy of first value of surname
+
 // Let's say we have an array
 const players = ["Wes", "Sarah", "Ryan", "Poppy"];
 
