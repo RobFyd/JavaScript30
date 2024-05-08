@@ -50,4 +50,25 @@ const person = {
 const captain2 = Object.assign({}, person, { number: 99, age: 12 });
 console.log(captain2); // the value of captain2 is {name: "Wes Bos", age: 80, number: 99} and the value of person is {name: "Wes Bos", age: 80}
 // We will hopefully soon see the object ...spread
+const captain3 = Object.assign({}, person);
+captain3.age = 102;
+console.log(captain3); // the value of captain3 is {name: "Wes Bos", age: 12} and the value of person is {name: "Wes Bos", age: 80}
 // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+const wes = {
+    name: "Wes",
+    age: 100,
+    social: {
+        twitter: "@wesbos",
+        facebook: "wesbos.developer",
+    },
+};
+console.log(wes);
+const dev = Object.assign({}, wes);
+dev.name = "Wesley";
+dev.social.twitter = "@coolman";
+console.log(dev); // the value of dev is {name: "Wesley", age: 100, social: {twitter: "@coolman", facebook: "wesbos.developer"}} and the value of wes is {name: "Wes", age: 100, social: {twitter: "@coolman", facebook: "wesbos.developer"}}
+console.log(wes); // the value of wes is {name: "Wes", age: 100, social: {twitter: "@coolman", facebook: "wesbos.developer"}} and the value of dev is {name: "Wesley", age: 100, social: {twitter: "@coolman", facebook: "wesbos.developer"}}
+// another way to copy object but it is not recommended
+const dev2 = JSON.parse(JSON.stringify(wes));
+dev2.social.twitter = "@coolguy";
+console.log(dev2); // the value of dev2 is {name: "Wes", age: 100, social: {twitter: "@coolguy", facebook: "wesbos.developer"}} and the value of wes is {name: "Wes", age: 100, social: {twitter: "@coolman", facebook: "wesbos.developer"}}
