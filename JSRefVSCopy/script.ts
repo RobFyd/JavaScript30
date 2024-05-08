@@ -1,4 +1,9 @@
 // start with strings, numbers and booleans
+let age = 100;
+let age2 = age;
+console.log(age, age2); //the value of age and age2 is 100 because age2 is a copy of age
+age = 200;
+console.log(age, age2); //the value of age is 200 and age2 is 100 because age2 is a copy of first value of age
 
 // Let's say we have an array
 const players = ["Wes", "Sarah", "Ryan", "Poppy"];
