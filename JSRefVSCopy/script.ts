@@ -16,13 +16,11 @@ console.log(surname, surname2); //the value of surname is Bos and surname2 is We
 
 // Let's say we have an array
 const players = ["Wes", "Sarah", "Ryan", "Poppy"];
-
 // and we want to make a copy of it.
 const team = players;
 console.log(players, team); //the value of players and team is ["Wes", "Sarah", "Ryan", "Poppy"] because team is a copy of players
-
 // You might think we can just do something like this:
-team[3] = "Lux"; //change the value of team[3] to Lux
+// team[3] = "Lux"; // the value of team is ["Wes", "Sarah", "Ryan", "Lux"] and the value of players is ["Wes", "Sarah", "Ryan", "Lux"]
 
 // however what happens when we update that array?
 
@@ -33,12 +31,24 @@ team[3] = "Lux"; //change the value of team[3] to Lux
 // Why? It's because that is an array reference, not an array copy. They both point to the same array!
 
 // So, how do we fix this? We take a copy instead!
+const team2 = players.slice();
+team2[3] = "Lux"; // the value of team2 is ["Wes", "Sarah", "Ryan", "Lux"] and the value of players is ["Wes", "Sarah", "Ryan", "Poppy"]
 
 // one way
 
 // or create a new array and concat the old one in
+const team3 = [].concat(players); // same as slice
+team3[3] = "unga bunga"; // the value of team3 is ["Wes", "Sarah", "Ryan", "unga bunga"] and the value of players is ["Wes", "Sarah", "Ryan", "Poppy"]
+console.log(team3);
 
 // or use the new ES6 Spread
+const team4 = [...players];
+team4[3] = "heeee hawww";
+console.log(team4); // the value of team4 is ["Wes", "Sarah", "Ryan", "heeee hawww"] and the value of players is ["Wes", "Sarah", "Ryan", "Poppy"]
+
+const team5 = Array.from(players);
+team5[3] = "stefan";
+console.log(team5); // the value of team5 is ["Wes", "Sarah", "Ryan", "stefan"] and the value of players is ["Wes", "Sarah", "Ryan", "Poppy"]
 
 // now when we update it, the original one isn't changed
 
