@@ -30,5 +30,9 @@
 
 13 - Slide in on Scroll - https://robfyd.github.io/JavaScript30/SlideScroll/index-START.html 📜
 
+14 - Object and Arrays - Reference vs Copy - https://robfyd.github.io/JavaScript30/JSRefVSCopy/index-START.html 📦
+
+15 - Local Storage and Event Delegation - https://robfyd.github.io/JavaScript30/LocalStorage/index-START.html 🗄️
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
