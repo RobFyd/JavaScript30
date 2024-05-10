@@ -9,6 +9,6 @@ function addItem(e) {
         text,
         done: false,
     };
-    console.log(item);
+    this.reset(); // clear the input field
 }
 addItems.addEventListener("submit", addItem);
