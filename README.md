@@ -36,5 +36,7 @@
 
 16 - Mouse Move Shadow - https://robfyd.github.io/JavaScript30/MouseMoveShadow/index-START.html 🐭
 
+17 - Sort Without Articles - https://robfyd.github.io/JavaScript30/SortWithoutArticles/index-START.html 📚
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
