@@ -34,5 +34,7 @@
 
 15 - Local Storage and Event Delegation - https://robfyd.github.io/JavaScript30/LocalStorage/index-START.html 🗄️
 
+16 - Mouse Move Shadow - https://robfyd.github.io/JavaScript30/MouseMoveShadow/index-START.html 🐭
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
