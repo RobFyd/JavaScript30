@@ -38,5 +38,7 @@
 
 17 - Sort Without Articles - https://robfyd.github.io/JavaScript30/SortWithoutArticles/index-START.html 📚
 
+18 - Adding Up Times with Reduce - https://robfyd.github.io/JavaScript30/AddingUpTimes/index-START.html ⏰
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
