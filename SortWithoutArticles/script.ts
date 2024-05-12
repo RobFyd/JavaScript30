@@ -14,7 +14,7 @@ const bands = [
   "An Old Dog",
 ];
 
-function strip(bandName: string) {
+function strip(bandName) {
   return bandName.replace(/^(a |the |an )/i, "").trim();
 }
 
@@ -26,12 +26,18 @@ function strip(bandName: string) {
 //   }
 // });
 
-const sortedBands = bands.sort(function (a, b) {
-  if (a > b) {
-    return 1;
-  } else {
-    return -1;
-  }
-});
+// const sortedBands = bands.sort(function (a, b) {   // after stripping
+//   if (strip(a) > strip(b)) {
+//     return 1;
+//   } else {
+//     return -1;
+//   }
+// });
+
+// const sortedBands = bands.sort(function (a, b) {    // after stripping and using ternary operator
+//   return strip(a) > strip(b) ? 1 : -1;
+// });
+
+const sortedBands = bands.sort((a, b) => (strip(a) > strip(b) ? 1 : -1)); // after stripping and using ternary operator and arrow function
 
 console.log(sortedBands);
