@@ -13,6 +13,9 @@ const bands = [
     "Anywhere But Here",
     "An Old Dog",
 ];
+function strip(bandName) {
+    return bandName.replace(/^(a |the |an )/i, "").trim();
+}
 const sortedBands = bands.sort(function (a, b) {
     if (a > b) {
         return 1;
