@@ -7,7 +7,12 @@ const seconds = timeNodes
     .map(timeCode => {
         const [mins, secs] = timeCode.split(':').map(parseFloat);
         return (mins * 60) + secs;
-        console.log(mins, secs);
     })
+    .reduce((total, vidSeconds) => total + vidSeconds);
 
-console.table(seconds);
+    let secondsLeft = seconds;
+    const hours = Math.floor(secondsLeft / 3600);
+    secondsLeft = secondsLeft % 3600;
+
+console.log(seconds);
+console.log(secondsLeft);
