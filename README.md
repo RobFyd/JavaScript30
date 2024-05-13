@@ -40,5 +40,7 @@
 
 18 - Adding Up Times with Reduce - https://robfyd.github.io/JavaScript30/AddingUpTimes/index-START.html ⏰
 
+19 - Webcam Fun - https://robfyd.github.io/JavaScript30/WebcamFun/index-START.html 📸
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
