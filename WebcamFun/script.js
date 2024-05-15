@@ -9,6 +9,9 @@ function getVideo() {
         console.log(localMediaStream);
         video.srcObject = localMediaStream;
         video.play();
+    })
+        .catch(err => {
+        console.error('OH NO!!!', err);
     });
 }
 getVideo();
