@@ -42,5 +42,7 @@
 
 19 - Webcam Fun - https://robfyd.github.io/JavaScript30/WebcamFun/index-START.html 📸
 
+20 - Speech Detection - https://robfyd.github.io/JavaScript30/SpeechDetection/index-START.html 🗣️
+
 
 ## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
