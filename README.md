@@ -3,6 +3,7 @@
 </div>
 
 ## This is 30 Day Vanilla JS Coding Challenge from Wes Bos.
+## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
 
 1 - JS Drum Kit - https://robfyd.github.io/JavaScript30/DrumKit/index-START.html 🥁
 
@@ -44,5 +45,3 @@
 
 20 - Speech Detection - https://robfyd.github.io/JavaScript30/SpeechDetection/index-START.html 🗣️
 
-
-## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
