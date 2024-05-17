@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Speech Detection</title>
     <link rel="icon" href="https://fav.farm/🔥" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="words" contenteditable></div>
@@ -11,6 +12,14 @@
     <script>
       window.SpeechRecognition =
         window.SpeechRecognition || window.webkitSpeechRecognition;
+
+      const recognition = new SpeechRecognition();
+      recognition.interimResults = true;
+
+      let p = document.createElement("p");
+      const words = document.querySelector(".words");
+      words.appendChild(p);
+      
     </script>
   </body>
 </html>
