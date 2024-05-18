@@ -47,5 +47,5 @@
 
 21 - Geolocation - https://robfyd.github.io/JavaScript30/Geolocation/index-START.html 🌍
 
-
+22 - Follow Along Link Highlighter - https://robfyd.github.io/JavaScript30/FALH/index-START.html 🌐
 
