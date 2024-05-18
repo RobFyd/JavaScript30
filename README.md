@@ -45,10 +45,5 @@
 
 20 - Speech Detection - https://robfyd.github.io/JavaScript30/SpeechDetection/index-START.html 🗣️
 
-<<<<<<< HEAD
 21 - Geolocation - https://robfyd.github.io/JavaScript30/Geolocation/index-START.html 🌍
 
-
-## If you want to check it from the source -> [link](https://javascript30.com/). Thank you Wes :)
-=======
->>>>>>> 17d4b1086bbc77a0efba4f1e900006cf80a60454
