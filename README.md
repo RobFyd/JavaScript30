@@ -49,3 +49,5 @@
 
 22 - Follow Along Link Highlighter - https://robfyd.github.io/JavaScript30/FALH/index-START.html 🌐
 
+23 - Speech Synthesis - https://robfyd.github.io/JavaScript30/SpeechSynthesis/index-START.html 🗣   ️
+
