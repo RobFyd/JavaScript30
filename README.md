@@ -53,3 +53,5 @@
 
 24 - Sticky Nav - https://robfyd.github.io/JavaScript30/StickyNav/index-START.html 📌
 
+25 - Event Capture, Propagation, Bubbling and Once - https://robfyd.github.io/JavaScript30/EventCapture/index-START.html 🎈
+
