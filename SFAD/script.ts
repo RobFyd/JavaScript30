@@ -5,10 +5,13 @@ const background = document.querySelector('.dropdownBackground') as HTMLDivEleme
 const nav = document.querySelector('.top') as HTMLElement;
 
 function handleEnter() {
+    this.classList.add('trigger-enter');
+    setTimeout(() => this.classList.add('trigger-enter-active'), 150);
 
 }
 
 function handleLeave() {
+    this.classList.remove('trigger-enter', 'trigger-enter-active');
 
 }
 
