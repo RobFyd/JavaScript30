@@ -57,3 +57,5 @@
 
 26 - Stripe Follow Along Dropdown - https://robfyd.github.io/JavaScript30/SFAD/index-START.html 🎈
 
+27 - Click and Drag to Scroll - https://robfyd.github.io/JavaScript30/ClickAndDrag/index-START.html 🖱️
+
