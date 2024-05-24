@@ -55,7 +55,7 @@
 
 25 - Event Capture, Propagation, Bubbling and Once - https://robfyd.github.io/JavaScript30/EventCapture/index-START.html 🎈
 
-26 - Stripe Follow Along Dropdown - https://robfyd.github.io/JavaScript30/SFAD/index-START.html 🎈
+26 - Stripe Follow Along Dropdown - https://robfyd.github.io/JavaScript30/SFAD/index-START.html 🌐
 
 27 - Click and Drag to Scroll - https://robfyd.github.io/JavaScript30/ClickAndDrag/index-START.html 🖱️
 
