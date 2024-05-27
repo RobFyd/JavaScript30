@@ -8,7 +8,6 @@ slider.addEventListener("mousedown", (event) => {
     slider.classList.add("active");
     startX = event.pageX - slider.offsetLeft;
     scrollLeft = slider.scrollLeft;
-    console.log(startX);
 });
 slider.addEventListener("mouseleave", () => {
     isDown = false;
