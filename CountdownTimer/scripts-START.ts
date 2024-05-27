@@ -1,4 +1,4 @@
-function timer(seconds) {
+function timer(seconds: number) {
     setInterval(() => {
         seconds--;
         if (seconds < 0) {
