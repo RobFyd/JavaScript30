@@ -22,7 +22,7 @@ body {
   height: 800px;
   padding: 100px;
   width: 100%;
-  border: 1px solid white;
+  border: 3px solid lightblue;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
