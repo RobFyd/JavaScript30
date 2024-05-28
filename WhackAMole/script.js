@@ -2,6 +2,7 @@ const holes = document.querySelectorAll(".hole");
 const scoreBoard = document.querySelector(".score");
 const moles = document.querySelectorAll(".mole");
 let lastHole;
+let timeUp = false;
 function randomTime(min, max) {
     return Math.round(Math.random() * (max - min) + min);
 }
@@ -20,6 +21,13 @@ function peep() {
     hole.classList.add("up");
     setTimeout(() => {
         hole.classList.remove("up");
-        peep();
+        if (!timeUp)
+            peep();
     }, time);
+}
+function startGame() {
+    scoreBoard.textContent = "0";
+    timeUp = false;
+    peep();
+    setTimeout(() => timeUp = true, 10000);
 }
