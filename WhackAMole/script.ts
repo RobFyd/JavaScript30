@@ -17,3 +17,13 @@ function randomHole(holes: NodeListOf<HTMLElement>) {
     lastHole = hole;
     return hole;
 }
+
+function peep() {
+    const time = randomTime(200, 1000);
+    const hole = randomHole(holes);
+    hole.classList.add("up");
+    setTimeout(() => {
+        hole.classList.remove("up");
+        peep();
+    }, time);
+}
