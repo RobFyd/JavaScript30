@@ -36,7 +36,6 @@ function displayTimeLeft(seconds: number) {
   }${remainderMinutes}:${remainderSeconds < 10 ? "0" : ""}${remainderSeconds}`;
   document.title = display;
   timerDisplay.textContent = display;
-  console.log(hours, remainderMinutes, remainderSeconds);
 }
 
 function displayEndTime(timestamp: number) {
