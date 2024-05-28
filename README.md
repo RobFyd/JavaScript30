@@ -63,3 +63,5 @@
 
 29 - Countdown Timer - https://robfyd.github.io/JavaScript30/CountdownTimer/index-START.html ⏳
 
+30 - Whack A Mole - https://robfyd.github.io/JavaScript30/WhackAMole/index-START.html 🐭
+
