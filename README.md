@@ -59,3 +59,7 @@
 
 27 - Click and Drag to Scroll - https://robfyd.github.io/JavaScript30/ClickAndDrag/index-START.html 🖱️
 
+28 - Video Speed Controller - https://robfyd.github.io/JavaScript30/SpeedController/index-START.html 📹
+
+29 - Countdown Timer - https://robfyd.github.io/JavaScript30/CountdownTimer/index-START.html ⏳
+
