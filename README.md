@@ -41,11 +41,11 @@
 
 18 - Adding Up Times with Reduce - https://robfyd.github.io/JavaScript30/AddingUpTimes/index-START.html ⏰
 
-19 - Webcam Fun - https://robfyd.github.io/JavaScript30/WebcamFun/index-START.html 📸
+19 - Webcam Fun 📸
 
-20 - Speech Detection - https://robfyd.github.io/JavaScript30/SpeechDetection/index-START.html 🗣️
+20 - Speech Detection 🗣️
 
-21 - Geolocation 🌍
+21 - Geolocation 🌍 
 
 22 - Follow Along Link Highlighter - https://robfyd.github.io/JavaScript30/FALH/index-START.html 🌐
 
